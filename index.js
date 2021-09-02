@@ -11,4 +11,6 @@ const displayName = () => {
 	div_el.innerHTML = `<h4>${name}</h4>`;
 
 	document.getElementsByTagName('body')[0].appendChild(div_el);
+
+	document.getElementsByName('text')[0].value == '';
 }
