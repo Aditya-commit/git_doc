@@ -12,5 +12,5 @@ const displayName = () => {
 
 	document.getElementsByTagName('body')[0].appendChild(div_el);
 
-	document.getElementsByName('text')[0].value == '';
+	document.getElementsByName('text')[0].value = '';
 }
