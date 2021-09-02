@@ -5,3 +5,4 @@ On editing with vim the line endings get different And I don't know why is this 
 
 
 This is the line endings in the file
+Now this is done using cmd.
