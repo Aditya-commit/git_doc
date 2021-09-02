@@ -8,3 +8,5 @@ This is the line endings in the file
 Now this is done using cmd.
 
 Using diff now now added little more changes
+
+direct commit command = git command -a -m 'direct git command'
