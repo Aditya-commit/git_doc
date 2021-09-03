@@ -24,4 +24,6 @@ not getting tracked
 
 If your file is in tracking mode and then you add the file in the .gitignore file then it will not work as you have to explicitly 
 tell that the file should not be tracked using git rm --cached <filename> command
+_______________________________________________________________________________________________________________________________________
 
+To reverse the change to its previous commit you can use git checkout -- <filename> command . It is equal to undo.But it does not work if the file has been staged.
