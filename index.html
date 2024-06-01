@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<title>Git Doc</title>
+		<link rel='stylesheet' href='index.css'>
+	</head>
 	<body>
 		<h1>Git Documentation</h1>
 		<button onclick='makeAlert()'>Alert</button>
@@ -9,6 +13,21 @@
 		<h3>This is the modified file</h3>
 		<h3>Now I learnt how to push code on github</h3>
 		<h3>This is another push</h3>
+		<div class='popup_container'>
+			<div class="popup_child">
+				<div class="header">
+					<h2 class="modal_heading">Search Servers</h2>
+					<button class='close_btn'>X</button>
+				</div>
+				<form>
+					 <textarea class="form-control" name="servers_arr"placeholder="Enter each server in new line" id="floatingTextarea2" required></textarea>
+				</form>
+			</div>
+		</div>
+		<form>
+			<input type="text" name="name" placeholder='Enter name'>
+			<button>Submit</button>
+		</form>
 		<script src='./index.js'></script>
 	</body>
 </html>
