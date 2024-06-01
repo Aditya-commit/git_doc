@@ -17,7 +17,7 @@ const displayName = () => {
 
 // function defined inside master
 const func = () => {
-	ip = 738374.234
+	ip = 1920
 
 	console.log('hello this is aditya singh tomar currently learning how to use git');
 }
