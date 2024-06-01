@@ -20,4 +20,5 @@ const func = () => {
 	ip = 1920
 
 	console.log('hello this is aditya singh tomar currently learning how to use git');
+	console.log("This line is added on the master branch");
 }
