@@ -14,3 +14,8 @@ const displayName = () => {
 
 	document.getElementsByName('text')[0].value = '';
 }
+
+// function defined inside master
+const func = () => {
+	ip = 738374.234
+}
